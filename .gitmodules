@@ -1,3 +1,6 @@
 [submodule "textmate-solarized"]
 	path = textmate-solarized
 	url = https://github.com/deplorableword/textmate-solarized
+[submodule "ColdFusion"]
+	path = ColdFusion
+	url = https://github.com/SublimeText/ColdFusion.git
