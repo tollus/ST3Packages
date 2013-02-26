@@ -1,0 +1,61 @@
+[
+	{ "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["alt+w"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": true } },
+
+
+    /****** HTML SNIPPETS ******/
+
+	{
+		"keys": ["ctrl+b"], "command": "insert_snippet",
+		"args": {"contents": "<strong>$SELECTION<\/strong>$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+
+    /****** COLDFUSION SNIPPETS ******/
+
+	{
+		"keys": ["alt+shift+e","alt+shift+e"], "command": "insert_snippet",
+		"args": {"contents": "Request.HtmlFormatCheckBlank($SELECTION)$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+	{
+		"keys": ["alt+shift+e","alt+shift+w"], "command": "insert_snippet",
+		"args": {"contents": "#Request.HtmlFormatCheckBlank(\"$SELECTION\")#$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+	{
+		"keys": ["alt+shift+e","alt+shift+r"], "command": "insert_snippet",
+		"args": {"contents": "Request.HtmlFormatCheckBlank($SELECTION, \"${1:Text When Blank}\")$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+	{
+		"keys": ["alt+shift+e","alt+shift+f"], "command": "insert_snippet",
+		"args": {"contents": "HtmlEditFormat($SELECTION)$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+	{
+		"keys": ["alt+shift+e","alt+shift+u"], "command": "insert_snippet",
+		"args": {"contents": "URLEncodedFormat($SELECTION)$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+	{
+		"keys": ["alt+shift+e","alt+shift+j"], "command": "insert_snippet",
+		"args": {"contents": "Request.JSFix($SELECTION)$0"},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" }
+	   	]},
+	{
+		"keys": ["alt+shift+c"], "command": "insert_snippet",
+		"args": {"contents": "cfmodule template=\"$0$SELECTION.cfm\""},
+		"context": [
+	      	{ "key": "selector", "operator": "equal", "operand": "text.html.cfm" },
+       		{ "key": "selection_empty", "operator": "equal", "operand": false }
+	   	]}
+]
