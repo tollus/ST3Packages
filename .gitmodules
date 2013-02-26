@@ -7,3 +7,6 @@
 [submodule "Local History"]
 	path = Local History
 	url = https://github.com/vishr/local-history.git
+[submodule "SublimeMarkAndMove"]
+	path = SublimeMarkAndMove
+	url = https://github.com/colinta/SublimeMarkAndMove.git
