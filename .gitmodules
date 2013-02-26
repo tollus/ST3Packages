@@ -4,3 +4,6 @@
 [submodule "ColdFusion"]
 	path = ColdFusion
 	url = https://github.com/SublimeText/ColdFusion.git
+[submodule "Local History"]
+	path = Local History
+	url = https://github.com/vishr/local-history.git
