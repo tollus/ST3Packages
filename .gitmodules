@@ -13,6 +13,3 @@
 [submodule "Sublime-Text-2-Inc-Dec-Value"]
 	path = Sublime-Text-2-Inc-Dec-Value
 	url = https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
-[submodule "Sublimerge"]
-	path = Sublimerge
-	url = https://github.com/tollus/Sublimerge.git
