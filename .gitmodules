@@ -7,9 +7,9 @@
 [submodule "Local History"]
 	path = Local History
 	url = https://github.com/vishr/local-history.git
-[submodule "SublimeMarkAndMove"]
-	path = SublimeMarkAndMove
-	url = https://github.com/colinta/SublimeMarkAndMove.git
 [submodule "Sublime-Text-2-Inc-Dec-Value"]
 	path = Sublime-Text-2-Inc-Dec-Value
 	url = https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
+[submodule "StringUtilities"]
+	path = StringUtilities
+	url = https://github.com/akalongman/sublimetext-stringutilities
