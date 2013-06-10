@@ -13,3 +13,6 @@
 [submodule "StringUtilities"]
 	path = StringUtilities
 	url = https://github.com/akalongman/sublimetext-stringutilities
+[submodule "ExportHtml"]
+	path = ExportHtml
+	url = https://github.com/facelessuser/ExportHtml.git
