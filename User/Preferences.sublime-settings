@@ -5,6 +5,10 @@
 	"detect_indentation": false,
 	"font_size": 9,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"minimap_scroll_to_clicked_text": false,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
