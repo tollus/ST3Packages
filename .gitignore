@@ -1,3 +1,8 @@
 *.sublime-project
 *.sublime-workspace
-
+JSHint Gutter/
+PyV8/
+SublimeCodeIntel/
+User/Package Control.cache/
+User/Package Control.last-run
+User/SublimeSimpleSync.sublime-settings

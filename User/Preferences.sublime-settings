@@ -9,8 +9,8 @@
 	[
 		"Vintage"
 	],
+	"inverse_caret_state": true,
 	"minimap_scroll_to_clicked_text": false,
-	"overlay_scroll_bars": "enabled",
 	"preview_on_click": false,
 	"shift_tab_unindent": true,
 	"trim_trailing_white_space_on_save": true
