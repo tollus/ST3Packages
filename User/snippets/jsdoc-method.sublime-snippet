@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${10:description}
+ *
+ * @method ${1:name}
+ ${2:* @private
+ }${3:* @param \{${4:type}\} ${5:variable} ${6:description}
+ }${7:* @returns \{${8:type}\} ${9:description}
+ }*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>/**m</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

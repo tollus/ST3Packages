@@ -1,6 +1,7 @@
 *.sublime-project
 *.sublime-workspace
 EditorConfig/
+HTML-CSS-JS Prettify/
 JSHint Gutter/
 Local History/
 PyV8/
@@ -8,3 +9,4 @@ SublimeCodeIntel/
 User/Package Control.cache/
 User/Package Control.last-run
 User/SublimeSimpleSync.sublime-settings
+
