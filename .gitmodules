@@ -3,13 +3,7 @@
 	url = https://github.com/deplorableword/textmate-solarized
 [submodule "ColdFusion"]
 	path = ColdFusion
-	url = https://github.com/SublimeText/ColdFusion.git
-[submodule "Local History"]
-	path = Local History
-	url = https://github.com/vishr/local-history.git
-[submodule "Sublime-Text-2-Inc-Dec-Value"]
-	path = Sublime-Text-2-Inc-Dec-Value
-	url = https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
+	url = https://github.com/SublimeText/ColdFusion
 [submodule "StringUtilities"]
 	path = StringUtilities
 	url = https://github.com/akalongman/sublimetext-stringutilities
