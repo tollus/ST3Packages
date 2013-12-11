@@ -1,6 +1,9 @@
 *.sublime-project
 *.sublime-workspace
+ColdFusion/
+EditorConfig/
 JSHint Gutter/
+Local History/
 PyV8/
 SublimeCodeIntel/
 User/Package Control.cache/
