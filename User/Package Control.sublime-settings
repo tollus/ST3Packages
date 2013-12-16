@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"ColdFusion",
+		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
 		"Git",
