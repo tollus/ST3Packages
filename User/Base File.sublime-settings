@@ -1,0 +1,17 @@
+{
+
+    // Add a '[description]' placeholder for the return tag?
+    "jsdocs_return_description": false,
+
+    // indicates whether the @method tag should be added automatically
+    "jsdocs_autoadd_method_tag": true,
+
+    // indicates whether the @property tag should be added automatically to variables
+    "jsdocs_autoadd_property_tag": true,
+
+    // A map to determine the value of variables, should hungarian notation (or similar) be in use
+    "jsdocs_notation_map": [{
+        "prefix": "_",
+        "tags": ["@private"]
+    }]
+}

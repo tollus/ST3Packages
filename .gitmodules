@@ -10,3 +10,6 @@
 [submodule "ExportHtml"]
 	path = ExportHtml
 	url = https://github.com/facelessuser/ExportHtml.git
+[submodule "DocBlockr"]
+	path = DocBlockr
+	url = https://github.com/tollus/sublime-jsdocs.git
