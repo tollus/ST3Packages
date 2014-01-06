@@ -12,12 +12,16 @@
 			"selector": "source.js"
 		}
 	],
-	"color_scheme": "Packages/Theme - itg.flat/itg.Monokai.tmTheme",
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
 	"detect_indentation": false,
 	"font_size": 9,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"JSHint Gutter",
+		"StringUtilities",
+		"EditorConfig",
+		"ExportHtml",
 		"Vintage"
 	],
 	"inverse_caret_state": true,
