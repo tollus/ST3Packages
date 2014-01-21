@@ -18,11 +18,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"JSHint Gutter",
-		"StringUtilities",
-		"EditorConfig",
 		"ExportHtml",
-		"Vintage"
+		"Vintage",
+		"JSHint Gutter",
+		"EditorConfig",
+		"StringUtilities"
 	],
 	"inverse_caret_state": true,
 	"itg_sidebar_tree_small": true,
